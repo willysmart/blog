@@ -34,4 +34,4 @@ if (require.main === module) {
 	console.log('fibonacci(' + n + ') is', main.fibonacci(n));
 }
 
-module.exports.fibonacci = fibonacci;
+module.exports = fibonacci;
